@@ -33,8 +33,7 @@ fetch(url, {
         },
         redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({first:"John",phone:"000-000-1010,last:"Milata"}) 
-                              
+        body: JSON.stringify({First:"John",Telephone:"000-000-1010",Last:"Milata"})
         // body data type must match "Content-Type" header
       });
       //return response.json(); // parses JSON response into native JavaScript objects
